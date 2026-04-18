@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAUx0lEQVR4nO1ba5RU1ZX+9j7n3OpqQEC0RTDBiIqYxDi2GhPEGlQUwqMb8CIgyIAOBI0xLmOSlUym0snkYTKJM3Hig4lmUALaV2xoWkBFpcT4SNIYsxRNovEBora8+1VV95yz50dVQQGNsSG0a82avVatvqu67j17f2efs/f+9rnARyuENPgj1uH/pcclnU4zAKoJx366JrxkBgCEYag+Cl30RzHounXrGIDNdmyfI/CXQ2RpRCQfhS4fxfqjTCbjFixY0J9YppuABtXUXjgWgP8ovKDHAUilUgqAvLnlpelKYaD3TnKu4+sA4fTTox73gh4HIJPJuDvvvNN4n/2S806c814ZXDBj9vgRdXU97wU9CkAqldIA8PBj0WhWGO69CBELIGjdvfOrPalLSXoUgKqqjACQjs62Lwm8ABAA2lrnvcQTFiyYdkYURb4YJXpEeg6ANDiK4MaOPf9U5/MXOetARAoAiOBZefXG229eA0A2btxIPaVWjwEQbgwJANjI9cZwAMDt/S+pOPYCcTPmzp02KIoiD/SMF/QUABRFkZsxY1z/vMtOc9YLUJp9AgCCiNMB99m2a8sCAJJKrfu/A0Ax9GFn646ZxvDRArEiEBFxpQ9AYm3sc/mOq0fPHN0rk8k4AEd8KfQIAJlMxqXTT2jr46u99w4gozWzCbTSRiljlFKGDYRZGzWwoqPzCgBSAu5IyhFHOAxDFUWRmxReNMZJ5+o4H8N7dAJ4zXm/JTAG1lmBUC+t+ETWcoKzvNWAT2psfLqt+JgjliD1SC0wb948s2nLxgXaqNXwuOvYfsetX7y4oWX/3zEzJk75fLWmxNQg0fcMAL9Jp9NcV1d3xADokXBzzTXX9H7//c2Do6jxTwAwffr4Y7bv3npmoNWQjo72XswGycqKbXknz69pfGpj6b4whIoieBxBDzjSAFAYhhxFkQOAKeHo2Z1x+yzx8XnM1IuZQUUNiIA4dgDoFa0Tj1eo5ML6+kdeAArlc11dnT8iCh6Jh5Y9WwBgfE2q1vrOH2nDw7x38F4gIp4Zfu/kEhGRUorBiuAt2UD3uuNTyfNvqltUlz1SIByRKJAu0Fxy5513mvGTLrjNIdtAyg9zzoK4gDkRWAQaIA2QLmaFYq33NnbWiVUOHV9q3v3I2iuvDAfX1dX59BGgz46EBxAAmTlzZq9d7a+v9IhHeefhvWQB3mBt/GdjTC2x7weIoLgIiPaqUroWkdgYNoTgL1WDh6QW/sev302n0/T39IRDQZQAUDqd5lQqpVOplC6bGQrDkOvr64Ptra81OMmPEnEg4ecrKwee93DT70acPOSz/6KU9gKIFL2/K+OL1yaOJQbZU955841fp9NCZXUClcYPw1AVdej2hH7QDZROgzZuDKmlpYWAQjUXReU5/F5Jp9O8ceNGiqLIja8ZeRepeK7zHgCvH1J5Us3tS5bsmDR1zDlxvGu18/GAQiksREQHBaAkAsSJQJs4y19sWvGbO1OplM5kMvYgenMYlutcJVF95IuWHhBN9owWhqFqaWmhopEHDT1EhHHTxh2DbMfHvc2dLGw/6T0PUxX9v7IqWvXuhNpRk620LhPxEFGrj+07LFy8eHF7be3Fw7OudT0rP8A574mIC88T7A/CAQAIvFIg7+Tt/r1PO23o0KGdf/jjU1+Eyg4T4Ze9k5eTJvnWwIGnbbn11ltzB3tOOg1ety7FAFAC8CCjEibOndAn9/bWQZ7sEIEb6gSnakUnQ+QTAgxm4n6sgKBCIc7K3WtW/vaqi0df3EslWl9kbT/unWoJ6LhTGxsbW6+77rqjXn3j98+SssOt9Y6ZylJcfwAAB4IhEIEzxiixybCx4fEHZs2qHb6z7b2XdCBkY4FzkifIO4DaxKxeB8srgHldvLw64KjjNnV0hO9H0dQDvFejsA/4MeMvnOCk7bPi5GRHckrblk2DhKTKaMWKGZoE8IAIQUTgvfMQ8dlO2jpg0NCvC54DBbuvICUnEhFMUHFb47LGVgB4c/ML31eBH57POUtEWkT+xozv/38CEQrbBuWmAHjg3nuXv1xz2ajrncv+p/PWElPATEOIZQiRPZ9AEMnDiWD77rfagJ9tmTDp3FdB/CohsfmYfkPvuPvuu1s5nU4DAGnlOxThWzohlyvyZzHTQCZi77y3NrY2djaOnXPOe+8hRN4ro7VSFb9cunDp1nQ6rYlkAbOIjaVVVyR/BYAmzxh3Ut5m58V56/cSIN0PPiJgL55E7DnpJ57QAGhw1TG/cta/y0xaRLxz3tvYuYKu1sZx7EScCPnexHIqa/pCZW/zZWI5pbW1NReGoeJCfE1T04p1j/XrN/A8Z3kbRLx4sVTY8LnoKZqIFBExEQAi5fLo6N/rmF8CoOdffOLTgD8DIPKCJxt+vWYzAGnfte1ybSgAxOMgS04KtfEHAkAEEg94L8f97rafHBOGId92W9QWmMQipRUB8AXdSO2XW5AIxHmXI9LIZfXPVzzw5LwoiuIoijwDQF1dnU+lUvq+xY3PSQ7jibmdFGkRFOKtMCDluovTWpF38uiSJQ++CUBsHI/UhhkQMNSjhYGFQG68Fw+RvdO+r8Fc/OwLQBeAkIgIK/ROUPsxpfRa4uAeGztLxActnUVggyBIKK64d3n9uuvDEKXfyp48IJPJ2FQqpdeu/e2zyUTfGsUmRyy0B4T9tQFD6aAJxVmNbe5MQOAswGx+D0BGj0+dLMDZznkQdZlziIh4Ee9EqEiMiC19RPb83UOcEMPHNv/9Cy+pHj1rVu2AhoZHXyEyrzATFZ51gDfFQUIb5839DyxdOzsMZZ8Cax+lSiA0Pvj4E0f1GjBFK+OJQTgABFJx7F1AiWcACBGBWQ0nIjjnNxnyfwTA7HKjjOEAIhZduz8pZjbGKK2M0lorY7Q2xmgTGG2M1tpobYxSWiultdLihYncxAFVlY9s3/XuTUQk4uVZZkJxmZWQhYhYrdk4S8tvuOY7M4mI6utlnxB/AB9QAiG6b9VDYyekagntDwp7BYEQERViMrG18u6W93a/DgCXXXZZcmfb68cTMUTwx8bGp9sBeFY45yAtPyECCJT3CMKkqbRbtrzDfY5K9vNxfFQimRyYzXXoZEXlcbGNK7TSVSK+n0B6K+b+AnA+a9+y4l8AAO+pGZCr9xsjNoE2NuaVDzUMvmzlslE+nQbRfgp1SYhkMhlbXV1tVq/MNI0ec97lrP0y72IRKRR4RAyQ37Fhw/MdANDRse1oYhkgEGjFrwLw48adf5Lj/BdsGQFaNjveGKPgg+80LV+/sisduhZCGF7W+4QTjgpuueWu7aVvvbWbnCZ4L6UAY41RhpB4dPYZ1172UMNUf7Aa4gPjUXV1tWlubo4nTrroyrxrWxTbvGchr4zS1vqnHlu9YaSIUG34jxfk8h3rvDjP4C1BouLlzvb2M5Th45wXobJxROCUIiYxL9aMu7V6/vyz4/GTRn4V5K6M43wLM7d7wQ7x8l6gg1br7DbNic2nXFC99pYbb+nsSr/aMHW+tbn11lkPwAUJZXys1iTN4JooiuKinV3uZR9YDDU3N8epVEo3Njx2D/nEFVoZBhXieGxte3Gzkc7OzjnMAES8kJwQ2+xoNnycc/sYLwCESIRZkanoddP8+WfHU6eOP8f77M2C3KeNoYu0wcREArOTleprOnDfSyT5NnDcuPmFPx+NYhFWmriTTjrJA4DLOgEAIsRBoA184vFRI6dMjqIon06nD2r83wQA2LsnrG56cglLYlrByUQUcS8AdPnlNScCfrK1rhCWPGLnJCfeW2JIaXAuZA8SBEaLU03L73/0kXQ6HbRmt95ODHaxj611zsbWxnln43xs8/nY2jjOsfbOdXZOAiDFswXFdRwBADo72yu8d94YkxAxa0eeN2HijTfe2PlhSJQPVQ7v2ROa1t9foSuvUEoTMw8GIO3ZnWcGCdWHCEprpU3AxhiV0NpoArPWhpkVbOwdgbzNYVOv3n2/SUSy4Q9PfEUHUu2csyAypSSGiPYQJQAZ7zw7yX3zRz/6Ud9MJrMnoWppSREABMleVZWVSRavHjrrUxfW3HTTTe0flkH60Kxwc3NzXF1dbZpWrL//krHnKQD3jJ+eOkZy8pKN/bsQtdNa/BWC18TTXxTrTbt27Wj52Mc+Ti4X597atnl3Vd8qaWujd1Y3rW6bNu3iQbs6dn9TYu8BVoDfUwPsVwuwiFhif/yzGx7+GoBv7V8O5+POEQl71HPjL71i0vz58+Pu0GfdTspLg4+bmPpn8vTXpqZ1j4Vh2Le+vr6ViP7moOl0Onjhld+eGOd3/RSw4611rjDzhVu7rAwFAhIBuL2yz5Dh0T3R2yW6PJ1Oq+bnn7xuO3K/fLrx6dbucoeHRImVBqmunmeamxdaFNdkGEKV3BIokBFBYKt2d77/3faOtoGK9QCleBAgg1lBO+cLjAiA8n2qHIQyesxqwxpW37viwd/Mnjp1KkdR5NLpNH+37rteCirsIWKPKABF4TKty3d6AHs9ZdTF/zCn79EVd1tbaPV574usMPy+6fFeD9ijXHnVSAKlFHzMbf37HD+02FgpN7jbxgOH1xkqd7ODDkwaW+PYwVqfA0SjyH8fpDY4iIgw6TjQfa4Xn3hk6NDtpSSofNxDap78vVjhfdAvLhFUz6tWn098nl99q/kR5vgCa70rcQIHStceUEq9nfVvrG5s/kRX4x2u4oclTzwhetQoth+kz9y5M4a8t/2NDV5y/bwv8KAH/mrfPaDsupjkqNbewfFnnXbaZ14HCiX84eoOHAYApa5v7ZRLpyrgnWXLHn4qlUqpTCZja2sv+pyl7PdjHz83sN/wukWLFmVrpl5Ya+O2BuecLcT3rqRwbKgcABF4Eyi2eXp91YpnTy4rZgRd7D3dlUPutJRo587O7SOz8e6bAUhV1fsMAB353T/WCTdKKXxjR9trD9188819VtQ/vhyS+Lk2WgO+C0r7oFUjOes7mdSXysJsOQiHtRQOGYCqqqrCwArHB0n+3OSpl9RG0cZ8KpXSlX36zrNZvAgv8JK/cP0zyxcDQmd/5sKbxKlmVkoXyI9y2WtLGaFRap0a1ok3AaCY2xMAvuGGG5IzZ87sdag2AIcOAEVR5Orr6xUzD4/jvORyu2+bO3fuoEwmY5ffv/blAX2HjQT0Si8eDrmJ42pG/Lquri4P1tPhVDsx7cc2lewqyF4QvNWalLPZFFA4Z1w8OeL/9NrvfrCz7Y2zgT0HsLsth9VsXLr0rirx/hPWCkG547fu/POy+p/WJ1OplF60aNGuVcufmag5eaviBEjF0ydMOv+Bhx5c/xetKmcZZZionJ0hiMAVbXcFKsxbL8QAkXj1FgAkk0mVyWTs9Ctrz9WB+4p4V1UCpscACMOQASDv24YpjSSReG+dFYrPW/Ls7Q9ee+21AkDC8PSgcdn6L2sKFtgYedJ2ytgJ50aNDY83sAQ3GW00UFgKIiJakyJSZIxWpsSHqUDFeb69d8WXV8+bV23WrFmTmzMnPLa19b0lRAIHe+qh2HBYAJQ2QC/xJ5UqXIJIWxtb59vH3Lv0lpWzZ8/uV9gThlQsX5a5Q1f0vcTG8laiEpd9YcK5d69oyPw7U8W/GaO1h89prUnryv9y0CPggknt7e5qG9OsPr2rzlrd+Mw1LS2/oIULm+Orrrrq6Jbtm1d4cUOt9fBezjgcAA4pDJbS3AmTR9zNys6JY2sLvX4AEKuN1nD6FaWDLy6P1mVK982ef/mJ21o23x0kZFScxZKVy5++YsKkkXUqiP8114n1qxufu6CrTT2Vgs5kYGfNqh2+o+29JSB/Zhy7vNYUxDnZ8Ojq5uo9fF1PAFC8T8ZOPPtpHfDnbOwdUYFrL7CxcEqTEkdClLit0hz/wyiK3gaAdFq4+YWRP9ba3ugsr2xs+E3N2PGfn8Ninlm16sk/Vc+rVift6KSWlnauqnozjiI4Isb4iSP/ySP7M5DvH1vvmIjBQt7Szr6VRw+Noke24xAyxEMBgABIGIa923J/fY01VYnfJykpUdKeCGQCTXFO3ieoX/RK9L0P2PR6FG3MT5t26fTW7O5vuLz6yZpVTy3uaqDrxlyXeLPPSxOc7fwK4EYUC6k9nWWR4gELSVY/3LR+w6Eco+k2AOk0uK4OfsKUEZ90Lv/H8uZKOQB7r5Fn5iCZDJDt9DsrTf+ZwKo1pXMGYRgGLS0tvqqqSqIo8jNmzOjXkXtnjFD+nHzej2HlhwMe1noHgAvUfClfgNOaVT5PM9au+u3Sv3FuoEvpdjVY6K9nPJwaZozifD4+oMAhIngvHhDRRgXiCR3t7n+CRO+f1dc/9CIRlVJpH0VRvnQbSl2mOP4MVHyDSTBy2dgB7InI7N8uKxCsDIg7vbt2lOSQy2Hn859ioNi23kdEBF5pVooZ4nldMtHve9F9qx8vKF1wulJvr/w+ALJkyZIdAL4xY8bk23d3tnxbsb8KLMrGzhdX3z4e58WDFZ0BlGWn3ZBuA1AaREg+3YUBjgjaGK3E8UvJoPcP7l/y6BJAEIahOv30SOrqDk5RlySVSuli0/XqMLz0rvZ4V9oYvtSLK5CrhQ41eQ8m56FIDxMRJqLSAesPDUR394DSiS4ZM+HsP+iAPmPjAh1OTMoYBWfxNom5+awzrvrvuro5WWDfw5IfVtJp8MaNoMJeQaidctHkXNz6bVZyprUWhcYpMRHYe+xOHDVoaNPSpq3oJgCHkghJTc2FA0ByonPeASATaMXQuyHJH55QdcpZKxueurWubk62+AKUdNd4AKirg48iuEKOL7x82doHPzZw7rmKK68nUm9rrTUAFoFloj52x7aPAUAYds+mbv24lALDyFBm7qMUKWZN3qqFvfoMPGtFtO6bd9yxuKX4chQdiuH7SzGs+TAM1cKF8+PGZet+rv1xZ2qq/DFz0KGU0qwYwr7IFoXden63ACilwM7ZMysShr3Tqysr+o1oanh6/v33LH+tZHgxFP1dDzgXwaRUKqWbmpq2NjZkvn5s34FnG5VcarQmIhlRruMRkdI7fV+YcP70KWFqZvn3R+IY6wcIlb9fOHHyRRdfOvZz16LIE/SgHvsq0tNS5AAOa/z/BSse/q+k9cpDAAAAAElFTkSuQmCC">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Lora:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="#" class="logo-container" style="text-decoration:none; cursor:pointer;">
+            <svg class="logo-img" viewBox="0 0 354 323" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g filter="url(#filter0_dd_101_147)">
+                    <g filter="url(#filter1_d_101_147)">
+                        <path d="M220.227 86.036C220.85 86.4318 221.474 86.8276 222.116 87.2354C223.553 88.1863 224.936 89.2127 226.305 90.2535C226.305 90.8102 226.305 91.3669 226.305 91.9405C227.046 92.2259 227.046 92.2259 227.801 92.5171C234.238 96.1313 238.813 104.091 241.937 110.497C242.31 111.258 242.684 112.019 243.07 112.804C246.544 120.352 248.572 128.189 249.264 136.435C249.445 139.158 249.445 139.158 251.109 140.336C252.384 140.653 253.66 140.965 254.939 141.265C255.555 141.411 256.172 141.556 256.808 141.706C257.401 141.828 257.994 141.95 258.606 142.075C260.173 142.55 260.173 142.55 261.91 144.237C262.232 145.973 262.232 145.973 262.289 147.98C262.324 148.64 262.359 149.3 262.395 149.98C261.91 151.828 261.91 151.828 260.013 153.188C257.321 154.477 255.678 154.685 252.696 154.695C251.229 154.702 251.229 154.702 249.732 154.71C248.664 154.698 247.596 154.687 246.496 154.675C245.368 154.67 244.24 154.664 243.077 154.658C231.639 154.544 220.255 153.673 208.857 152.794C197.31 151.903 185.784 151.287 174.202 150.985C173.939 151.506 173.676 152.027 173.406 152.564C172.412 154.459 171.266 156.141 170.023 157.891C168.264 160.421 166.636 162.957 165.138 165.64C157.191 179.851 157.191 179.851 153.457 181.021C150.449 181.562 147.408 181.603 144.358 181.713C142.884 181.774 141.409 181.835 139.935 181.896C138.782 181.943 138.782 181.943 137.606 181.991C126.184 182.461 114.896 183.022 103.589 184.748C98.1543 185.573 92.868 185.872 87.3627 185.568C85.4493 182.143 84.8874 179.29 85.6259 175.446C86.388 173.702 87.2086 171.981 88.0682 170.28C91.56 163.337 92.896 156.409 94.0215 148.807C96.5129 132.04 101.787 116.727 113.414 103.749C114.036 103.015 114.657 102.281 115.297 101.525C120.893 95.1679 127.117 90.5869 134.256 86.036C135.008 85.5402 135.76 85.0444 136.535 84.5336C161.495 68.9027 195.907 70.5859 220.227 86.036ZM127.309 109.654C126.592 110.28 125.876 110.906 125.138 111.552C117.456 119.76 114.474 131.365 111.461 141.812C111.236 142.576 111.012 143.34 110.781 144.127C109.298 149.436 108.269 154.743 108.204 160.263C109.196 161.409 109.196 161.409 111.84 161.318C116.509 161.02 119.126 159.913 122.261 156.52C123.997 153.207 124.745 150.161 125.599 146.556C128.223 136.69 131.474 126.372 137.729 118.089C138.215 117.423 138.701 116.758 139.202 116.072C143.028 111.127 147.42 107.023 152.228 102.998C154.769 100.828 156.349 99.451 156.834 96.1579C155.811 94.9798 155.811 94.9798 152.926 95.1035C141.793 95.3533 134.785 102.319 127.309 109.654Z" fill="#ECE1AA"/>
+                    </g>
+                    <g filter="url(#filter2_d_101_147)">
+                        <path d="M188.552 160.059C189.121 160.069 189.69 160.079 190.277 160.09C192.157 160.13 194.036 160.194 195.916 160.263C196.885 160.297 196.885 160.297 197.872 160.331C201.939 160.48 206.002 160.673 210.065 160.891C212.175 161.003 214.286 161.103 216.396 161.202C217.751 161.273 219.105 161.344 220.459 161.416C221.084 161.444 221.709 161.473 222.353 161.502C228.324 161.846 228.324 161.846 230.652 163.637C231.365 165.496 231.365 165.496 231.822 167.785C233.197 173.315 235.78 177.654 238.847 182.457C239.345 183.258 239.843 184.059 240.355 184.884C242.372 188.114 244.408 191.311 246.626 194.415C248.174 196.767 248.352 198.012 248.02 200.751C245.716 202.093 244.115 202.495 241.398 202.859C238.412 203 238.412 203 236.731 204.968C236.585 207.158 236.585 207.158 236.731 209.66C236.867 218.853 236.867 218.853 234.994 222.681C233.189 223.729 233.189 223.729 231.52 224.368C231.655 225.074 231.789 225.78 231.927 226.507C233.927 239.173 233.927 239.173 231.307 244.128C227.201 248.429 221.775 250.288 215.817 250.703C212.87 250.735 209.934 250.696 206.988 250.622C204.994 250.585 202.999 250.552 201.005 250.523C200.131 250.503 199.258 250.482 198.358 250.461C195.96 250.516 193.879 250.712 191.574 251.36C190.576 253.256 190.576 253.256 189.838 255.577C187.048 260.274 187.048 260.274 184.681 261.535C180.432 261.41 177.413 258.02 174.641 255.208C172.629 253.203 170.721 251.351 168.453 249.62C165.99 247.668 164.049 245.476 161.991 243.129C160.267 241.187 158.475 239.32 156.676 237.442C152.286 232.728 148.449 227.657 144.566 222.55C142.52 219.865 140.4 217.254 138.223 214.668C129.973 204.648 129.973 204.648 130.359 198.263C131.079 195.352 132.7 194.032 135.129 192.316C138.505 191.138 142.111 191.254 145.658 191.103C147.635 190.991 149.611 190.868 151.588 190.741C153.075 190.647 154.563 190.57 156.052 190.497C159.373 190.138 161.313 189.679 163.677 187.311C165.303 185.108 166.714 182.843 168.128 180.507C169.295 178.797 170.471 177.092 171.656 175.393C173.306 172.982 174.951 170.569 176.581 168.144C177.033 167.475 177.486 166.805 177.951 166.115C178.342 165.531 178.733 164.947 179.135 164.345C182.017 160.456 183.473 159.947 188.552 160.059Z" fill="#ECE1AA"/>
+                    </g>
+                    <g filter="url(#filter3_d_101_147)">
+                        <path d="M85.6286 216.777C89.3321 218.05 90.4609 220.295 92.3586 223.525C95.1131 228.107 98.1719 232.189 101.721 236.24C102.996 237.864 102.996 237.864 102.996 239.551C103.856 239.83 104.716 240.108 105.602 240.395C105.602 240.952 105.602 241.508 105.602 242.082C106.461 242.36 107.321 242.639 108.207 242.925C108.207 243.482 108.207 244.039 108.207 244.612C108.719 244.837 109.232 245.062 109.76 245.294C111.714 246.317 113.013 247.397 114.611 248.882C119.532 253.169 125.147 256.479 130.785 259.795C131.289 260.092 131.793 260.389 132.312 260.695C135.649 262.607 138.987 264.079 142.617 265.383C143.559 265.725 144.502 266.066 145.473 266.418C146.8 266.897 146.8 266.897 148.153 267.387C149.602 267.944 151.05 268.505 152.495 269.074C152.495 270.187 152.495 271.3 152.495 272.447C151.084 273.647 151.084 273.647 149.021 274.767C148.228 275.2 147.434 275.633 146.616 276.078C142.884 277.981 139.125 279.824 135.345 281.634C131.214 283.612 127.134 285.668 123.078 287.788C118.917 289.963 114.731 292.067 110.493 294.098C107.643 295.499 104.832 296.968 102.019 298.438C96.815 301.156 91.5591 303.755 86.258 306.29C81.9944 308.34 77.8541 310.554 73.7594 312.909C71.4791 313.888 69.8589 313.949 67.3923 313.778C67.2413 309.327 67.7795 305.287 68.7594 300.932C68.9018 300.274 69.0441 299.617 69.1908 298.94C69.4956 297.533 69.803 296.128 70.1127 294.722C70.9321 290.999 71.7304 287.272 72.5281 283.545C72.6871 282.803 72.8461 282.061 73.0099 281.296C74.3052 275.218 75.4741 269.127 76.5647 263.011C78.2383 253.639 80.0598 244.3 81.9379 234.965C82.0725 234.295 82.2072 233.626 82.3459 232.936C83.4303 227.548 84.5164 222.16 85.6286 216.777Z" fill="#ECE1AA"/>
+                    </g>
+                    <g filter="url(#filter4_d_101_147)">
+                        <path d="M94.3128 108.81C93.8442 112.679 92.1725 114.885 89.9708 118.089C81.5231 132.727 75.9451 148.279 75.8595 165.219C75.856 165.824 75.8526 166.429 75.8491 167.052C75.9086 172.569 76.7458 177.872 77.8312 183.279C78.7597 187.947 78.7597 187.947 77.8134 189.785C73.8101 189.07 71.7813 186.71 69.0752 183.933C65.453 180.25 65.453 180.25 61.3139 177.133C61.3139 176.576 61.3139 176.019 61.3139 175.446C60.0243 175.028 60.0243 175.028 58.7087 174.602C58.7087 174.046 58.7087 173.489 58.7087 172.915C58.243 172.724 57.7774 172.533 57.2976 172.335C52.7873 169.914 49.2753 166.323 45.6828 162.793C43.1703 160.331 40.655 157.872 38.1387 155.413C37.4687 154.755 36.7987 154.097 36.1085 153.42C35.4676 152.794 34.8267 152.169 34.1665 151.525C33.5847 150.956 33.003 150.386 32.4036 149.799C30.9861 148.387 30.9861 148.387 29.1834 147.611C29.1834 147.054 29.1834 146.497 29.1834 145.924C28.6924 145.722 28.2015 145.52 27.6957 145.312C25.2882 144.008 23.6602 142.436 21.724 140.53C20.9712 139.793 20.2184 139.057 19.4428 138.298C18.6631 137.526 17.8835 136.755 17.0802 135.96C16.3038 135.198 15.5275 134.437 14.7277 133.652C13.2745 132.226 11.8231 130.798 10.3741 129.368C8.25907 127.285 6.13151 125.216 4 123.149C4.28657 122.593 4.57314 122.036 4.86839 121.462C15.3913 118.248 26.981 117.451 37.8673 115.98C39.7003 115.729 41.5331 115.477 43.366 115.225C50.5499 114.241 57.7346 113.264 64.9259 112.332C65.7828 112.22 66.6397 112.108 67.5225 111.993C69.1249 111.786 70.7275 111.58 72.3305 111.376C78.0486 110.634 83.6511 109.588 89.2755 108.349C91.7076 107.967 91.7076 107.967 94.3128 108.81Z" fill="#ECE1AA"/>
+                    </g>
+                    <g filter="url(#filter5_d_101_147)">
+                        <path d="M255.829 108.81C262.422 109.394 268.968 110.207 275.524 111.094C276.572 111.234 277.62 111.375 278.7 111.52C280.917 111.817 283.135 112.116 285.352 112.415C288.655 112.861 291.959 113.305 295.263 113.748C300.701 114.478 306.137 115.215 311.574 115.954C314.966 116.413 318.36 116.865 321.753 117.316C323.951 117.612 326.149 117.908 328.347 118.204C329.869 118.404 329.869 118.404 331.422 118.607C335.919 119.219 340.158 119.82 344.405 121.463C343.9 124.427 342.839 125.831 340.664 127.934C340.087 128.494 339.51 129.054 338.915 129.631C338.006 130.493 338.006 130.493 337.078 131.374C336.476 131.962 335.873 132.55 335.252 133.156C330.743 137.489 330.743 137.489 328.774 137.489C328.488 138.324 328.201 139.159 327.906 140.019C327.333 140.019 326.76 140.019 326.169 140.019C325.883 140.854 325.596 141.69 325.301 142.55C323.94 143.851 323.94 143.851 322.207 145.239C318.399 148.377 314.902 151.741 311.406 155.202C307.417 159.153 303.377 162.958 299.042 166.553C297.49 167.832 297.49 167.832 296.118 169.288C294.907 170.385 294.907 170.385 293.17 170.385C292.74 171.638 292.74 171.638 292.302 172.916C291.729 172.916 291.156 172.916 290.565 172.916C290.135 174.168 290.135 174.168 289.697 175.446C289.124 175.446 288.55 175.446 287.96 175.446C287.53 176.699 287.53 176.699 287.091 177.977C285.67 179.337 285.67 179.337 283.889 180.771C281.538 182.684 279.421 184.615 277.376 186.833C274.934 188.942 274.934 188.942 272.437 188.836C271.828 188.593 271.219 188.349 270.592 188.098C270.861 187.072 271.129 186.046 271.406 184.988C273.186 177.191 273.471 169.071 273.197 161.107C273.173 160.277 273.148 159.447 273.123 158.593C272.337 143.674 266.703 125.673 256.457 114.184C255.963 113.524 255.47 112.864 254.961 112.184C255.302 110.372 255.302 110.372 255.829 108.81Z" fill="#ECE1AA"/>
+                    </g>
+                    <g filter="url(#filter6_d_101_147)">
+                        <path d="M262.781 231.116C263.641 231.395 264.5 231.673 265.386 231.96C268.096 244.387 270.346 256.887 272.571 269.402C273.842 276.541 275.136 283.674 276.519 290.793C276.643 291.438 276.768 292.082 276.896 292.746C277.482 295.783 278.075 298.817 278.681 301.85C278.888 302.919 279.095 303.988 279.307 305.09C279.584 306.484 279.584 306.484 279.865 307.906C280.148 310.395 279.94 312.216 279.28 314.622C275.6 313.835 272.528 312.192 269.24 310.457C267.895 309.757 266.551 309.058 265.206 308.358C264.514 307.997 263.821 307.635 263.108 307.262C259.895 305.588 256.671 303.936 253.446 302.286C252.785 301.947 252.124 301.609 251.443 301.26C247.083 299.032 242.709 296.83 238.327 294.642C237.219 294.088 236.111 293.534 235.003 292.98C232.853 291.905 230.7 290.833 228.546 289.763C221.309 286.147 214.245 282.314 207.204 278.352C205.179 277.225 203.152 276.101 201.125 274.978C201.412 274.143 201.698 273.308 201.993 272.447C203.71 271.825 203.71 271.825 206.01 271.34C212.46 269.78 218.484 267.404 224.572 264.856C225.469 264.484 226.367 264.112 227.292 263.729C240.621 257.756 251.268 247.949 259.307 236.177C259.878 235.354 259.878 235.354 260.461 234.513C261.24 233.385 262.012 232.252 262.781 231.116Z" fill="#ECE1AA"/>
+                    </g>
+                    <g filter="url(#filter7_d_101_147)">
+                        <path d="M172.466 0C173.99 0.0593079 173.99 0.0593079 175.94 0.84349C177.245 2.77366 178.312 4.58684 179.359 6.64249C179.639 7.1644 179.918 7.68631 180.206 8.22403C182.308 12.2029 184.198 16.2703 186.091 20.3459C188.006 24.4325 190.005 28.4795 192.005 32.5271C192.445 33.4222 192.886 34.3174 193.339 35.2396C195.782 40.182 198.281 45.0889 200.869 49.9603C201.392 50.9508 201.915 51.9413 202.453 52.9618C203.468 54.8777 204.493 56.7885 205.53 58.6936C206.218 59.9959 206.218 59.9959 206.921 61.3244C207.332 62.0869 207.743 62.8493 208.167 63.6349C209.063 66.1377 208.839 67.5015 208.071 70.0097C207.409 69.8466 206.747 69.6835 206.066 69.5155C205.169 69.2958 204.272 69.0762 203.349 68.8499C202.034 68.527 202.034 68.527 200.693 68.1975C199.688 67.9605 198.684 67.7234 197.65 67.4792C196.822 67.256 196.822 67.256 195.977 67.0282C189.911 65.5099 183.915 65.4681 177.677 65.4759C176.562 65.4773 175.446 65.4787 174.297 65.4801C162.584 65.6263 152.627 67.5045 142.073 72.5402C141.5 72.5402 140.926 72.5402 140.336 72.5402C140.759 67.734 141.677 64.2611 143.918 59.8878C144.474 58.7815 145.028 57.6744 145.58 56.5666C145.864 56.0023 146.147 55.4379 146.439 54.8565C147.81 52.0672 149.064 49.2306 150.322 46.392C152.498 41.5122 154.764 36.6823 157.1 31.8733C159.107 27.7267 161.017 23.5425 162.914 19.3476C165.886 12.7874 169.091 6.37326 172.466 0Z" fill="#ECE1AA"/>
+                    </g>
+                    <g filter="url(#filter8_d_101_147)">
+                        <path d="M125.355 218.675C129.948 221.576 133.617 224.397 137.064 228.53C138.719 230.406 140.484 231.971 142.4 233.594C146.665 237.23 150.631 241.108 154.612 245.034C159.418 249.764 164.255 254.122 169.646 258.217C172.42 260.458 174.582 262.951 176.81 265.699C175.762 266.988 175.762 266.988 174.205 268.23C172.295 268.286 172.295 268.286 170.135 267.861C169.433 267.74 168.731 267.62 168.008 267.495C165.062 266.367 162.96 264.791 160.478 262.905C158.531 261.45 156.537 260.102 154.5 258.767C153.806 258.311 153.111 257.856 152.395 257.386C150.976 256.46 149.556 255.535 148.135 254.612C143.838 251.789 139.874 248.797 135.996 245.456C134.737 244.445 133.471 243.443 132.197 242.451C131.474 241.888 130.75 241.324 130.005 240.744C127.867 239.127 125.712 237.55 123.533 235.986C122.869 235.505 122.204 235.024 121.519 234.528C120.189 233.567 118.853 232.614 117.511 231.67C111.79 227.523 111.79 227.523 110.812 223.525C114.752 218.332 118.736 215.748 125.355 218.675Z" fill="#ECE1AA"/>
+                    </g>
+                </g>
+                <defs>
+                    <filter id="filter0_dd_101_147" x="0" y="0" width="348.406" height="322.622" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                        <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                        <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                        <feOffset dy="4"/>
+                        <feGaussianBlur stdDeviation="2"/>
+                        <feComposite in2="hardAlpha" operator="out"/>
+                        <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+                        <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_101_147"/>
+                        <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                        <feOffset dy="4"/>
+                        <feGaussianBlur stdDeviation="2"/>
+                        <feComposite in2="hardAlpha" operator="out"/>
+                        <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+                        <feBlend mode="normal" in2="effect1_dropShadow_101_147" result="effect2_dropShadow_101_147"/>
+                        <feBlend mode="normal" in="SourceGraphic" in2="effect2_dropShadow_101_147" result="shape"/>
+                    </filter>
+                    <filter id="filter1_d_101_147" x="85.3125" y="73.5989" width="186.086" height="120.085" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                        <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                        <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                        <feOffset dx="5" dy="4"/>
+                        <feGaussianBlur stdDeviation="2"/>
+                        <feComposite in2="hardAlpha" operator="out"/>
+                        <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0"/>
+                        <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_101_147"/>
+                        <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_101_147" result="shape"/>
+                    </filter>
+                    <filter id="filter2_d_101_147" x="130.234" y="160.045" width="126.93" height="109.489" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                        <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                        <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                        <feOffset dx="5" dy="4"/>
+                        <feGaussianBlur stdDeviation="2"/>
+                        <feComposite in2="hardAlpha" operator="out"/>
+                        <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0"/>
+                        <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_101_147"/>
+                        <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_101_147" result="shape"/>
+                    </filter>
+                    <filter id="filter3_d_101_147" x="67.3672" y="216.777" width="94.125" height="105.075" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                        <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                        <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                        <feOffset dx="5" dy="4"/>
+                        <feGaussianBlur stdDeviation="2"/>
+                        <feComposite in2="hardAlpha" operator="out"/>
+                        <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0"/>
+                        <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_101_147"/>
+                        <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_101_147" result="shape"/>
+                    </filter>
+                    <filter id="filter4_d_101_147" x="4" y="108.103" width="99.3125" height="89.682" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                        <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                        <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                        <feOffset dx="5" dy="4"/>
+                        <feGaussianBlur stdDeviation="2"/>
+                        <feComposite in2="hardAlpha" operator="out"/>
+                        <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0"/>
+                        <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_101_147"/>
+                        <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_101_147" result="shape"/>
+                    </filter>
+                    <filter id="filter5_d_101_147" x="254.961" y="108.81" width="98.4453" height="88.0612" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                        <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                        <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                        <feOffset dx="5" dy="4"/>
+                        <feGaussianBlur stdDeviation="2"/>
+                        <feComposite in2="hardAlpha" operator="out"/>
+                        <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0"/>
+                        <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_101_147"/>
+                        <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_101_147" result="shape"/>
+                    </filter>
+                    <filter id="filter6_d_101_147" x="201.125" y="231.116" width="87.8594" height="91.5056" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                        <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                        <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                        <feOffset dx="5" dy="4"/>
+                        <feGaussianBlur stdDeviation="2"/>
+                        <feComposite in2="hardAlpha" operator="out"/>
+                        <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0"/>
+                        <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_101_147"/>
+                        <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_101_147" result="shape"/>
+                    </filter>
+                    <filter id="filter7_d_101_147" x="140.336" y="0" width="77.4141" height="80.5402" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                        <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                        <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                        <feOffset dx="5" dy="4"/>
+                        <feGaussianBlur stdDeviation="2"/>
+                        <feComposite in2="hardAlpha" operator="out"/>
+                        <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0"/>
+                        <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_101_147"/>
+                        <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_101_147" result="shape"/>
+                    </filter>
+                    <filter id="filter8_d_101_147" x="110.812" y="217.448" width="75" height="58.8076" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                        <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                        <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                        <feOffset dx="5" dy="4"/>
+                        <feGaussianBlur stdDeviation="2"/>
+                        <feComposite in2="hardAlpha" operator="out"/>
+                        <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0"/>
+                        <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_101_147"/>
+                        <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_101_147" result="shape"/>
+                    </filter>
+                </defs>
+            </svg>
+            <h2>Soldier Brew</h2>
+        </a>
+
+        <div class="nav-right">
+            <div class="nav-links">
+                <a href="#products">Products</a>
+                <a href="#mission">About Us</a>
+                <a href="#contact">Contact Us</a>
+            </div>
+            <div class="header-socials">
+                <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+            </div>
+        </div>
+        <button class="hamburger" id="hamburgerBtn" aria-label="Open menu">
+            <span></span><span></span><span></span>
+        </button>
+    </nav>
+
+    <!-- MOBILE NAV DRAWER -->
+    <div class="mobile-nav" id="mobileNav">
+        <button class="mobile-nav-close" id="mobileNavClose" aria-label="Close menu"><i class="fas fa-times"></i></button>
+        <a href="#products" class="mobile-nav-link">Products</a>
+        <a href="#mission" class="mobile-nav-link">About Us</a>
+        <a href="#contact" class="mobile-nav-link">Contact Us</a>
+        <div class="mobile-socials">
+            <a href="https://instagram.com/soldierbrew.india" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://twitter.com" target="_blank"><i class="fab fa-x-twitter"></i></a>
+        </div>
+    </div>
+    <div class="page-content">
+        <div class="page-header">
+            <div class="brand-title">SOLDIER BREW</div>
+            <div class="page-title">PRIVACY POLICY</div>
+            <div class="meta">Nauka Beverages LLP &nbsp;|&nbsp; Ahmedabad, Gujarat – 380052, India</div>
+            <div class="meta">Effective Date: April 2026 &nbsp;|&nbsp; Last Updated: April 2026</div>
+        </div>
+
+        <p class="sec-p">At Soldier Brew (a brand of Nauka Beverages LLP), we are committed to protecting your privacy. This Privacy Policy explains how we collect, use, store, and protect your personal information when you visit our website (www.soldierbrew.com) or interact with us in any way. By using our website, you agree to the practices described in this policy.</p>
+
+        <div class="sec-h1">1. Information We Collect</div>
+        <p class="sec-p"><strong style="color:var(--accent);">Information You Provide Directly:</strong></p>
+        <ul class="sec-ul">
+            <li>Name and email address when you sign up for our newsletter or notify list</li>
+            <li>Contact details submitted through our contact form</li>
+            <li>Order and payment information when you make a purchase (once our store is live)</li>
+            <li>Any messages or feedback you send us directly</li>
+        </ul>
+        <p class="sec-p"><strong style="color:var(--accent);">Information Collected Automatically:</strong></p>
+        <ul class="sec-ul">
+            <li>IP address and browser type</li>
+            <li>Device information (mobile, desktop, OS)</li>
+            <li>Pages visited, time spent, and links clicked on our website</li>
+            <li>Referring URLs (how you arrived at our site)</li>
+            <li>Cookies and similar tracking technologies</li>
+        </ul>
+
+        <div class="sec-h1">2. How We Use Your Information</div>
+        <ul class="sec-ul">
+            <li>To respond to your enquiries and provide customer support</li>
+            <li>To send you product updates, launch announcements, and promotional communications (only with your consent)</li>
+            <li>To process and fulfill your orders and payments</li>
+            <li>To improve our website, products, and overall user experience</li>
+            <li>To analyse website traffic and usage patterns</li>
+            <li>To comply with legal obligations under applicable Indian laws</li>
+            <li>To detect and prevent fraud or unauthorised access</li>
+        </ul>
+
+        <div class="sec-h1">3. Cookies & Tracking Technologies</div>
+        <p class="sec-p">Our website uses cookies — small text files stored on your device — to enhance your browsing experience. Types of cookies we use:</p>
+        <ul class="sec-ul">
+            <li><strong>Essential Cookies:</strong> Required for the website to function properly</li>
+            <li><strong>Analytics Cookies:</strong> Help us understand how visitors interact with our site</li>
+            <li><strong>Preference Cookies:</strong> Remember your settings and choices</li>
+        </ul>
+        <p class="sec-p">You may disable cookies through your browser settings. However, doing so may affect certain features of the website.</p>
+
+        <div class="sec-h1">4. Sharing of Your Information</div>
+        <p class="sec-p">We do not sell, rent, or trade your personal information to any third parties. We may share your information only in the following limited circumstances:</p>
+        <ul class="sec-ul">
+            <li><strong>Service Providers:</strong> Trusted vendors who assist us in operating our website, processing payments, or delivering orders — bound by strict confidentiality agreements</li>
+            <li><strong>Legal Requirements:</strong> When required to comply with applicable law, court orders, or government authorities</li>
+            <li><strong>Business Transfers:</strong> In the event of a merger or acquisition, your data may be transferred as part of that transaction</li>
+            <li><strong>With Your Consent:</strong> For any other purpose, only with your explicit permission</li>
+        </ul>
+
+        <div class="sec-h1">5. Data Storage & Security</div>
+        <p class="sec-p">Your personal information is stored on secure servers and we implement industry-standard measures to protect it. These include:</p>
+        <ul class="sec-ul">
+            <li>SSL/TLS encryption for data transmitted on our website</li>
+            <li>Restricted access to personal data within our organisation</li>
+            <li>Regular security reviews and updates</li>
+        </ul>
+        <p class="sec-p">While we take every reasonable precaution, no method of transmission over the internet is 100% secure.</p>
+
+        <div class="sec-h1">6. Data Retention</div>
+        <ul class="sec-ul">
+            <li>Newsletter/notify list data: retained until you unsubscribe</li>
+            <li>Order and transaction data: retained for a minimum of 7 years as required under Indian tax laws</li>
+            <li>Contact form enquiries: retained for up to 2 years</li>
+        </ul>
+
+        <div class="sec-h1">7. Your Rights</div>
+        <ul class="sec-ul">
+            <li><strong>Access:</strong> Request a copy of the personal data we hold about you</li>
+            <li><strong>Correction:</strong> Ask us to correct inaccurate or incomplete data</li>
+            <li><strong>Deletion:</strong> Request deletion of your personal data (subject to legal obligations)</li>
+            <li><strong>Opt-Out:</strong> Unsubscribe from marketing communications at any time</li>
+            <li><strong>Portability:</strong> Request transfer of your data in a machine-readable format</li>
+        </ul>
+        <p class="sec-p">To exercise any of these rights, please contact us at <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="543d3a323b14273b38303d3126362631237a373b39">[email&#160;protected]</a>. We will respond within 30 days.</p>
+
+        <div class="sec-h1">8. Third-Party Links</div>
+        <p class="sec-p">Our website may contain links to third-party platforms such as Instagram, Facebook, X (Twitter), and YouTube. This Privacy Policy applies only to our website. We are not responsible for the privacy practices of any external websites.</p>
+
+        <div class="sec-h1">9. Children's Privacy</div>
+        <p class="sec-p">Our website and products are not directed at children under the age of 18. We do not knowingly collect personal information from minors. If you believe a minor has provided us with personal information, please contact us immediately.</p>
+
+        <div class="sec-h1">10. Changes to This Privacy Policy</div>
+        <p class="sec-p">We reserve the right to update or modify this Privacy Policy at any time. Any changes will be posted on this page with a revised "Last Updated" date. Your continued use of the website after changes are posted constitutes your acceptance of the updated policy.</p>
+
+        <div class="sec-h1">11. Governing Law</div>
+        <p class="sec-p">This Privacy Policy is governed by the laws of India, including the Information Technology Act, 2000 and the IT (Reasonable Security Practices) Rules, 2011. Any disputes shall be subject to the exclusive jurisdiction of the courts in Ahmedabad, Gujarat, India.</p>
+
+        <div class="sec-h1">12. Contact Us</div>
+        <p class="sec-p">For any questions or requests regarding this Privacy Policy:</p>
+        <ul class="sec-ul">
+            <li><strong>Nauka Beverages LLP</strong> — Ahmedabad, Gujarat – 380052, India</li>
+            <li>Email: <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="056c6b636a45766a69616c6077677760722b666a68">[email&#160;protected]</a></li>
+            <li>Phone: +91 84606 22305</li>
+            <li>Website: www.soldierbrew.com</li>
